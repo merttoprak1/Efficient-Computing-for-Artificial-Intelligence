@@ -1,0 +1,1082 @@
+
+onnx.quantize0.1.0:íº
+Ê
+ blocks.0.0.weight_bias_quantized
+&blocks.0.0.weight_bias_quantized_scale
++blocks.0.0.weight_bias_quantized_zero_pointblocks.0.0.weight_bias'blocks.0.0.weight_bias_DequantizeLinear"DequantizeLinear
+µ
+blocks.0.0.weight_quantized
+blocks.0.0.weight_scale
+blocks.0.0.weight_zero_point)blocks.0.0.weight_DequantizeLinear_Output"blocks.0.0.weight_DequantizeLinear"DequantizeLinear
+Ê
+ blocks.0.3.weight_bias_quantized
+&blocks.0.3.weight_bias_quantized_scale
++blocks.0.3.weight_bias_quantized_zero_pointblocks.0.3.weight_bias'blocks.0.3.weight_bias_DequantizeLinear"DequantizeLinear
+µ
+blocks.0.3.weight_quantized
+blocks.0.3.weight_scale
+blocks.0.3.weight_zero_point)blocks.0.3.weight_DequantizeLinear_Output"blocks.0.3.weight_DequantizeLinear"DequantizeLinear
+Ê
+ blocks.1.0.weight_bias_quantized
+&blocks.1.0.weight_bias_quantized_scale
++blocks.1.0.weight_bias_quantized_zero_pointblocks.1.0.weight_bias'blocks.1.0.weight_bias_DequantizeLinear"DequantizeLinear
+µ
+blocks.1.0.weight_quantized
+blocks.1.0.weight_scale
+blocks.1.0.weight_zero_point)blocks.1.0.weight_DequantizeLinear_Output"blocks.1.0.weight_DequantizeLinear"DequantizeLinear
+Ê
+ blocks.1.3.weight_bias_quantized
+&blocks.1.3.weight_bias_quantized_scale
++blocks.1.3.weight_bias_quantized_zero_pointblocks.1.3.weight_bias'blocks.1.3.weight_bias_DequantizeLinear"DequantizeLinear
+µ
+blocks.1.3.weight_quantized
+blocks.1.3.weight_scale
+blocks.1.3.weight_zero_point)blocks.1.3.weight_DequantizeLinear_Output"blocks.1.3.weight_DequantizeLinear"DequantizeLinear
+Ê
+ blocks.2.0.weight_bias_quantized
+&blocks.2.0.weight_bias_quantized_scale
++blocks.2.0.weight_bias_quantized_zero_pointblocks.2.0.weight_bias'blocks.2.0.weight_bias_DequantizeLinear"DequantizeLinear
+µ
+blocks.2.0.weight_quantized
+blocks.2.0.weight_scale
+blocks.2.0.weight_zero_point)blocks.2.0.weight_DequantizeLinear_Output"blocks.2.0.weight_DequantizeLinear"DequantizeLinear
+Ê
+ blocks.2.3.weight_bias_quantized
+&blocks.2.3.weight_bias_quantized_scale
++blocks.2.3.weight_bias_quantized_zero_pointblocks.2.3.weight_bias'blocks.2.3.weight_bias_DequantizeLinear"DequantizeLinear
+µ
+blocks.2.3.weight_quantized
+blocks.2.3.weight_scale
+blocks.2.3.weight_zero_point)blocks.2.3.weight_DequantizeLinear_Output"blocks.2.3.weight_DequantizeLinear"DequantizeLinear
+Ê
+ blocks.3.0.weight_bias_quantized
+&blocks.3.0.weight_bias_quantized_scale
++blocks.3.0.weight_bias_quantized_zero_pointblocks.3.0.weight_bias'blocks.3.0.weight_bias_DequantizeLinear"DequantizeLinear
+µ
+blocks.3.0.weight_quantized
+blocks.3.0.weight_scale
+blocks.3.0.weight_zero_point)blocks.3.0.weight_DequantizeLinear_Output"blocks.3.0.weight_DequantizeLinear"DequantizeLinear
+Ê
+ blocks.3.3.weight_bias_quantized
+&blocks.3.3.weight_bias_quantized_scale
++blocks.3.3.weight_bias_quantized_zero_pointblocks.3.3.weight_bias'blocks.3.3.weight_bias_DequantizeLinear"DequantizeLinear
+µ
+blocks.3.3.weight_quantized
+blocks.3.3.weight_scale
+blocks.3.3.weight_zero_point)blocks.3.3.weight_DequantizeLinear_Output"blocks.3.3.weight_DequantizeLinear"DequantizeLinear
+Ê
+ blocks.4.0.weight_bias_quantized
+&blocks.4.0.weight_bias_quantized_scale
++blocks.4.0.weight_bias_quantized_zero_pointblocks.4.0.weight_bias'blocks.4.0.weight_bias_DequantizeLinear"DequantizeLinear
+µ
+blocks.4.0.weight_quantized
+blocks.4.0.weight_scale
+blocks.4.0.weight_zero_point)blocks.4.0.weight_DequantizeLinear_Output"blocks.4.0.weight_DequantizeLinear"DequantizeLinear
+Ê
+ blocks.4.3.weight_bias_quantized
+&blocks.4.3.weight_bias_quantized_scale
++blocks.4.3.weight_bias_quantized_zero_pointblocks.4.3.weight_bias'blocks.4.3.weight_bias_DequantizeLinear"DequantizeLinear
+µ
+blocks.4.3.weight_quantized
+blocks.4.3.weight_scale
+blocks.4.3.weight_zero_point)blocks.4.3.weight_DequantizeLinear_Output"blocks.4.3.weight_DequantizeLinear"DequantizeLinear
+±
+conv1.weight_bias_quantized
+!conv1.weight_bias_quantized_scale
+&conv1.weight_bias_quantized_zero_pointconv1.weight_bias"conv1.weight_bias_DequantizeLinear"DequantizeLinear
+œ
+conv1.weight_quantized
+conv1.weight_scale
+conv1.weight_zero_point$conv1.weight_DequantizeLinear_Outputconv1.weight_DequantizeLinear"DequantizeLinear
+
+fc.bias_quantized
+fc.bias_quantized_scale
+fc.bias_quantized_zero_pointfc.biasfc.bias_DequantizeLinear"DequantizeLinear
+
+fc.weight_quantized
+fc.weight_scale
+fc.weight_zero_point!fc.weight_DequantizeLinear_Outputfc.weight_DequantizeLinear"DequantizeLinear
+i
+input
+input_scale
+input_zero_pointinput_QuantizeLinear_Outputinput_QuantizeLinear"QuantizeLinear
+…
+input_QuantizeLinear_Output
+input_scale
+input_zero_pointinput_DequantizeLinear_Outputinput_DequantizeLinear"DequantizeLinear
+Õ	
+input_DequantizeLinear_Output
+$conv1.weight_DequantizeLinear_Output
+conv1.weight_biasrelunode_Conv_143"Conv*
+group *
+pads@@@@ *
+auto_pad"NOTSET *
+strides@@ *
+	dilations@@ J¢
+	namespace”: __main__.DSCNN/bn1: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJ“
+pkg.torch.onnx.class_hierarchyq['__main__.DSCNN', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']J”
+pkg.torch.onnx.fx_nodeù%_native_batch_norm_legit_no_training : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d, %p_bn1_weight, %p_bn1_bias, %b_bn1_running_mean, %b_bn1_running_var, 0.1, 1e-05), kwargs = {})JQ
+pkg.torch.onnx.name_scopes3['', 'bn1', '_native_batch_norm_legit_no_training']J„
+pkg.torch.onnx.stack_traceåFile "/tmp/ipython-input-311616158.py", line 227, in forward
+    x = self.relu(self.bn1(self.conv1(x)))
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+d
+relu
+
+relu_scale
+relu_zero_pointrelu_QuantizeLinear_Outputrelu_QuantizeLinear"QuantizeLinear
+€
+relu_QuantizeLinear_Output
+
+relu_scale
+relu_zero_pointrelu_DequantizeLinear_Outputrelu_DequantizeLinear"DequantizeLinear
+Ã
+relu_DequantizeLinear_Output
+)blocks.0.0.weight_DequantizeLinear_Output
+blocks.0.0.weight_biasrelu_1node_Conv_145"Conv*
+group *
+pads@@@@ *
+auto_pad"NOTSET *
+strides@@ *
+	dilations@@ J‰
+	namespaceû: __main__.DSCNN/blocks: torch.nn.modules.container.Sequential/blocks.0: torch.nn.modules.container.Sequential/blocks.0.1: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_1: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJæ
+pkg.torch.onnx.class_hierarchyÃ['__main__.DSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']J´
+pkg.torch.onnx.fx_node™%_native_batch_norm_legit_no_training_1 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_1, %p_blocks_0_1_weight, %p_blocks_0_1_bias, %b_blocks_0_1_running_mean, %b_blocks_0_1_running_var, 0.1, 1e-05), kwargs = {})Jp
+pkg.torch.onnx.name_scopesR['', 'blocks', 'blocks.0', 'blocks.0.1', '_native_batch_norm_legit_no_training_1']Jî
+pkg.torch.onnx.stack_traceÏFile "/tmp/ipython-input-311616158.py", line 228, in forward
+    x = self.blocks(x)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+n
+relu_1
+relu_1_scale
+relu_1_zero_pointrelu_1_QuantizeLinear_Outputrelu_1_QuantizeLinear"QuantizeLinear
+Š
+relu_1_QuantizeLinear_Output
+relu_1_scale
+relu_1_zero_pointrelu_1_DequantizeLinear_Outputrelu_1_DequantizeLinear"DequantizeLinear
+Å
+relu_1_DequantizeLinear_Output
+)blocks.0.3.weight_DequantizeLinear_Output
+blocks.0.3.weight_biasrelu_2node_Conv_147"Conv*
+group *
+pads@ @ @ @  *
+auto_pad"NOTSET *
+strides@@ *
+	dilations@@ J‰
+	namespaceû: __main__.DSCNN/blocks: torch.nn.modules.container.Sequential/blocks.0: torch.nn.modules.container.Sequential/blocks.0.4: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_2: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJæ
+pkg.torch.onnx.class_hierarchyÃ['__main__.DSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']J´
+pkg.torch.onnx.fx_node™%_native_batch_norm_legit_no_training_2 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_2, %p_blocks_0_4_weight, %p_blocks_0_4_bias, %b_blocks_0_4_running_mean, %b_blocks_0_4_running_var, 0.1, 1e-05), kwargs = {})Jp
+pkg.torch.onnx.name_scopesR['', 'blocks', 'blocks.0', 'blocks.0.4', '_native_batch_norm_legit_no_training_2']Jî
+pkg.torch.onnx.stack_traceÏFile "/tmp/ipython-input-311616158.py", line 228, in forward
+    x = self.blocks(x)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+n
+relu_2
+relu_2_scale
+relu_2_zero_pointrelu_2_QuantizeLinear_Outputrelu_2_QuantizeLinear"QuantizeLinear
+Š
+relu_2_QuantizeLinear_Output
+relu_2_scale
+relu_2_zero_pointrelu_2_DequantizeLinear_Outputrelu_2_DequantizeLinear"DequantizeLinear
+Å
+relu_2_DequantizeLinear_Output
+)blocks.1.0.weight_DequantizeLinear_Output
+blocks.1.0.weight_biasrelu_3node_Conv_149"Conv*
+group *
+pads@@@@ *
+auto_pad"NOTSET *
+strides@@ *
+	dilations@@ J‰
+	namespaceû: __main__.DSCNN/blocks: torch.nn.modules.container.Sequential/blocks.1: torch.nn.modules.container.Sequential/blocks.1.1: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_3: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJæ
+pkg.torch.onnx.class_hierarchyÃ['__main__.DSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']J´
+pkg.torch.onnx.fx_node™%_native_batch_norm_legit_no_training_3 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_3, %p_blocks_1_1_weight, %p_blocks_1_1_bias, %b_blocks_1_1_running_mean, %b_blocks_1_1_running_var, 0.1, 1e-05), kwargs = {})Jp
+pkg.torch.onnx.name_scopesR['', 'blocks', 'blocks.1', 'blocks.1.1', '_native_batch_norm_legit_no_training_3']Jî
+pkg.torch.onnx.stack_traceÏFile "/tmp/ipython-input-311616158.py", line 228, in forward
+    x = self.blocks(x)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+n
+relu_3
+relu_3_scale
+relu_3_zero_pointrelu_3_QuantizeLinear_Outputrelu_3_QuantizeLinear"QuantizeLinear
+Š
+relu_3_QuantizeLinear_Output
+relu_3_scale
+relu_3_zero_pointrelu_3_DequantizeLinear_Outputrelu_3_DequantizeLinear"DequantizeLinear
+Å
+relu_3_DequantizeLinear_Output
+)blocks.1.3.weight_DequantizeLinear_Output
+blocks.1.3.weight_biasrelu_4node_Conv_151"Conv*
+group *
+pads@ @ @ @  *
+auto_pad"NOTSET *
+strides@@ *
+	dilations@@ J‰
+	namespaceû: __main__.DSCNN/blocks: torch.nn.modules.container.Sequential/blocks.1: torch.nn.modules.container.Sequential/blocks.1.4: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_4: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJæ
+pkg.torch.onnx.class_hierarchyÃ['__main__.DSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']J´
+pkg.torch.onnx.fx_node™%_native_batch_norm_legit_no_training_4 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_4, %p_blocks_1_4_weight, %p_blocks_1_4_bias, %b_blocks_1_4_running_mean, %b_blocks_1_4_running_var, 0.1, 1e-05), kwargs = {})Jp
+pkg.torch.onnx.name_scopesR['', 'blocks', 'blocks.1', 'blocks.1.4', '_native_batch_norm_legit_no_training_4']Jî
+pkg.torch.onnx.stack_traceÏFile "/tmp/ipython-input-311616158.py", line 228, in forward
+    x = self.blocks(x)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+n
+relu_4
+relu_4_scale
+relu_4_zero_pointrelu_4_QuantizeLinear_Outputrelu_4_QuantizeLinear"QuantizeLinear
+Š
+relu_4_QuantizeLinear_Output
+relu_4_scale
+relu_4_zero_pointrelu_4_DequantizeLinear_Outputrelu_4_DequantizeLinear"DequantizeLinear
+Å
+relu_4_DequantizeLinear_Output
+)blocks.2.0.weight_DequantizeLinear_Output
+blocks.2.0.weight_biasrelu_5node_Conv_153"Conv*
+group8 *
+pads@@@@ *
+auto_pad"NOTSET *
+strides@@ *
+	dilations@@ J‰
+	namespaceû: __main__.DSCNN/blocks: torch.nn.modules.container.Sequential/blocks.2: torch.nn.modules.container.Sequential/blocks.2.1: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_5: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJæ
+pkg.torch.onnx.class_hierarchyÃ['__main__.DSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']J´
+pkg.torch.onnx.fx_node™%_native_batch_norm_legit_no_training_5 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_5, %p_blocks_2_1_weight, %p_blocks_2_1_bias, %b_blocks_2_1_running_mean, %b_blocks_2_1_running_var, 0.1, 1e-05), kwargs = {})Jp
+pkg.torch.onnx.name_scopesR['', 'blocks', 'blocks.2', 'blocks.2.1', '_native_batch_norm_legit_no_training_5']Jî
+pkg.torch.onnx.stack_traceÏFile "/tmp/ipython-input-311616158.py", line 228, in forward
+    x = self.blocks(x)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+n
+relu_5
+relu_5_scale
+relu_5_zero_pointrelu_5_QuantizeLinear_Outputrelu_5_QuantizeLinear"QuantizeLinear
+Š
+relu_5_QuantizeLinear_Output
+relu_5_scale
+relu_5_zero_pointrelu_5_DequantizeLinear_Outputrelu_5_DequantizeLinear"DequantizeLinear
+Å
+relu_5_DequantizeLinear_Output
+)blocks.2.3.weight_DequantizeLinear_Output
+blocks.2.3.weight_biasrelu_6node_Conv_155"Conv*
+group *
+pads@ @ @ @  *
+auto_pad"NOTSET *
+strides@@ *
+	dilations@@ J‰
+	namespaceû: __main__.DSCNN/blocks: torch.nn.modules.container.Sequential/blocks.2: torch.nn.modules.container.Sequential/blocks.2.4: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_6: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJæ
+pkg.torch.onnx.class_hierarchyÃ['__main__.DSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']J´
+pkg.torch.onnx.fx_node™%_native_batch_norm_legit_no_training_6 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_6, %p_blocks_2_4_weight, %p_blocks_2_4_bias, %b_blocks_2_4_running_mean, %b_blocks_2_4_running_var, 0.1, 1e-05), kwargs = {})Jp
+pkg.torch.onnx.name_scopesR['', 'blocks', 'blocks.2', 'blocks.2.4', '_native_batch_norm_legit_no_training_6']Jî
+pkg.torch.onnx.stack_traceÏFile "/tmp/ipython-input-311616158.py", line 228, in forward
+    x = self.blocks(x)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+n
+relu_6
+relu_6_scale
+relu_6_zero_pointrelu_6_QuantizeLinear_Outputrelu_6_QuantizeLinear"QuantizeLinear
+Š
+relu_6_QuantizeLinear_Output
+relu_6_scale
+relu_6_zero_pointrelu_6_DequantizeLinear_Outputrelu_6_DequantizeLinear"DequantizeLinear
+Å
+relu_6_DequantizeLinear_Output
+)blocks.3.0.weight_DequantizeLinear_Output
+blocks.3.0.weight_biasrelu_7node_Conv_157"Conv*
+group8 *
+pads@@@@ *
+auto_pad"NOTSET *
+strides@@ *
+	dilations@@ J‰
+	namespaceû: __main__.DSCNN/blocks: torch.nn.modules.container.Sequential/blocks.3: torch.nn.modules.container.Sequential/blocks.3.1: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_7: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJæ
+pkg.torch.onnx.class_hierarchyÃ['__main__.DSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']J´
+pkg.torch.onnx.fx_node™%_native_batch_norm_legit_no_training_7 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_7, %p_blocks_3_1_weight, %p_blocks_3_1_bias, %b_blocks_3_1_running_mean, %b_blocks_3_1_running_var, 0.1, 1e-05), kwargs = {})Jp
+pkg.torch.onnx.name_scopesR['', 'blocks', 'blocks.3', 'blocks.3.1', '_native_batch_norm_legit_no_training_7']Jî
+pkg.torch.onnx.stack_traceÏFile "/tmp/ipython-input-311616158.py", line 228, in forward
+    x = self.blocks(x)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+n
+relu_7
+relu_7_scale
+relu_7_zero_pointrelu_7_QuantizeLinear_Outputrelu_7_QuantizeLinear"QuantizeLinear
+Š
+relu_7_QuantizeLinear_Output
+relu_7_scale
+relu_7_zero_pointrelu_7_DequantizeLinear_Outputrelu_7_DequantizeLinear"DequantizeLinear
+Å
+relu_7_DequantizeLinear_Output
+)blocks.3.3.weight_DequantizeLinear_Output
+blocks.3.3.weight_biasrelu_8node_Conv_159"Conv*
+group *
+pads@ @ @ @  *
+auto_pad"NOTSET *
+strides@@ *
+	dilations@@ J‰
+	namespaceû: __main__.DSCNN/blocks: torch.nn.modules.container.Sequential/blocks.3: torch.nn.modules.container.Sequential/blocks.3.4: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_8: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJæ
+pkg.torch.onnx.class_hierarchyÃ['__main__.DSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']J´
+pkg.torch.onnx.fx_node™%_native_batch_norm_legit_no_training_8 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_8, %p_blocks_3_4_weight, %p_blocks_3_4_bias, %b_blocks_3_4_running_mean, %b_blocks_3_4_running_var, 0.1, 1e-05), kwargs = {})Jp
+pkg.torch.onnx.name_scopesR['', 'blocks', 'blocks.3', 'blocks.3.4', '_native_batch_norm_legit_no_training_8']Jî
+pkg.torch.onnx.stack_traceÏFile "/tmp/ipython-input-311616158.py", line 228, in forward
+    x = self.blocks(x)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+n
+relu_8
+relu_8_scale
+relu_8_zero_pointrelu_8_QuantizeLinear_Outputrelu_8_QuantizeLinear"QuantizeLinear
+Š
+relu_8_QuantizeLinear_Output
+relu_8_scale
+relu_8_zero_pointrelu_8_DequantizeLinear_Outputrelu_8_DequantizeLinear"DequantizeLinear
+Å
+relu_8_DequantizeLinear_Output
+)blocks.4.0.weight_DequantizeLinear_Output
+blocks.4.0.weight_biasrelu_9node_Conv_161"Conv*
+group8 *
+pads@@@@ *
+auto_pad"NOTSET *
+strides@@ *
+	dilations@@ J‰
+	namespaceû: __main__.DSCNN/blocks: torch.nn.modules.container.Sequential/blocks.4: torch.nn.modules.container.Sequential/blocks.4.1: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_9: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJæ
+pkg.torch.onnx.class_hierarchyÃ['__main__.DSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']J´
+pkg.torch.onnx.fx_node™%_native_batch_norm_legit_no_training_9 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_9, %p_blocks_4_1_weight, %p_blocks_4_1_bias, %b_blocks_4_1_running_mean, %b_blocks_4_1_running_var, 0.1, 1e-05), kwargs = {})Jp
+pkg.torch.onnx.name_scopesR['', 'blocks', 'blocks.4', 'blocks.4.1', '_native_batch_norm_legit_no_training_9']Jî
+pkg.torch.onnx.stack_traceÏFile "/tmp/ipython-input-311616158.py", line 228, in forward
+    x = self.blocks(x)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+n
+relu_9
+relu_9_scale
+relu_9_zero_pointrelu_9_QuantizeLinear_Outputrelu_9_QuantizeLinear"QuantizeLinear
+Š
+relu_9_QuantizeLinear_Output
+relu_9_scale
+relu_9_zero_pointrelu_9_DequantizeLinear_Outputrelu_9_DequantizeLinear"DequantizeLinear
+Ê
+relu_9_DequantizeLinear_Output
+)blocks.4.3.weight_DequantizeLinear_Output
+blocks.4.3.weight_biasrelu_10node_Conv_163"Conv*
+group *
+pads@ @ @ @  *
+auto_pad"NOTSET *
+strides@@ *
+	dilations@@ JŠ
+	namespaceü: __main__.DSCNN/blocks: torch.nn.modules.container.Sequential/blocks.4: torch.nn.modules.container.Sequential/blocks.4.4: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_10: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJæ
+pkg.torch.onnx.class_hierarchyÃ['__main__.DSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']J¶
+pkg.torch.onnx.fx_node›%_native_batch_norm_legit_no_training_10 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_10, %p_blocks_4_4_weight, %p_blocks_4_4_bias, %b_blocks_4_4_running_mean, %b_blocks_4_4_running_var, 0.1, 1e-05), kwargs = {})Jq
+pkg.torch.onnx.name_scopesS['', 'blocks', 'blocks.4', 'blocks.4.4', '_native_batch_norm_legit_no_training_10']Jî
+pkg.torch.onnx.stack_traceÏFile "/tmp/ipython-input-311616158.py", line 228, in forward
+    x = self.blocks(x)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+s
+relu_10
+relu_10_scale
+relu_10_zero_pointrelu_10_QuantizeLinear_Outputrelu_10_QuantizeLinear"QuantizeLinear
+
+relu_10_QuantizeLinear_Output
+relu_10_scale
+relu_10_zero_pointrelu_10_DequantizeLinear_Outputrelu_10_DequantizeLinear"DequantizeLinear
+°
+relu_10_DequantizeLinear_Output
+val_104mean	node_mean"
+ReduceMean*
+noop_with_empty_axes  *
+keepdims Jb
+	namespaceU: __main__.DSCNN/pool: torch.nn.modules.pooling.AdaptiveAvgPool2d/mean: aten.mean.dimJs
+pkg.torch.onnx.class_hierarchyQ['__main__.DSCNN', 'torch.nn.modules.pooling.AdaptiveAvgPool2d', 'aten.mean.dim']J
+pkg.torch.onnx.fx_nodeu%mean : [num_users=1] = call_function[target=torch.ops.aten.mean.dim](args = (%relu_10, [-1, -2], True), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'pool', 'mean']J™
+pkg.torch.onnx.stack_traceúFile "/tmp/ipython-input-311616158.py", line 229, in forward
+    x = self.pool(x).flatten(1)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/pooling.py", line 1500, in forward
+    return F.adaptive_avg_pool2d(input, self.output_size)
+ñ
+mean
+val_108view	node_view"Reshape*
+	allowzero J5
+	namespace(: __main__.DSCNN/view: aten.view.defaultJI
+pkg.torch.onnx.class_hierarchy'['__main__.DSCNN', 'aten.view.default']J‰
+pkg.torch.onnx.fx_nodeo%view : [num_users=1] = call_function[target=torch.ops.aten.view.default](args = (%mean, [1, 56]), kwargs = {})J*
+pkg.torch.onnx.name_scopes['', 'view']Jz
+pkg.torch.onnx.stack_trace\File "/tmp/ipython-input-311616158.py", line 229, in forward
+    x = self.pool(x).flatten(1)
+d
+view
+
+view_scale
+view_zero_pointview_QuantizeLinear_Outputview_QuantizeLinear"QuantizeLinear
+€
+view_QuantizeLinear_Output
+
+view_scale
+view_zero_pointview_DequantizeLinear_Outputview_DequantizeLinear"DequantizeLinear
+ã
+view_DequantizeLinear_Output
+!fc.weight_DequantizeLinear_Output
+fc.biasoutput_QuantizeLinear_Inputnode_linear"Gemm*
+beta  €? *
+transB *
+alpha  €? *
+transA  J\
+	namespaceO: __main__.DSCNN/fc: torch.nn.modules.linear.Linear/linear: aten.linear.defaultJm
+pkg.torch.onnx.class_hierarchyK['__main__.DSCNN', 'torch.nn.modules.linear.Linear', 'aten.linear.default']J 
+pkg.torch.onnx.fx_node…%linear : [num_users=1] = call_function[target=torch.ops.aten.linear.default](args = (%clone, %p_fc_weight, %p_fc_bias), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'fc', 'linear']Jƒ
+pkg.torch.onnx.stack_traceäFile "/tmp/ipython-input-311616158.py", line 231, in forward
+    x = self.fc(x)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+ƒ
+output_QuantizeLinear_Input
+output_scale
+output_zero_pointoutput_QuantizeLinear_Outputoutput_QuantizeLinear"QuantizeLinear
+r
+output_QuantizeLinear_Output
+output_scale
+output_zero_pointoutputoutput_DequantizeLinear"DequantizeLinear
+main_graph*Bval_104Jÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿ*Bval_108J       8       **Binput_zero_point*"æ¶=Binput_scale** Bconv1.weight_zero_point*"?$;Bconv1.weight_scale*¡Bconv1.weight_quantizedJüş	â4+3æí1òÖ˜«	Ìô´+ÊôW2Ãîëì	ñâïôİ%
+àRÖîOËoä¡jİ,ïØø
+!ëÿ8AûT¤½<ú5ŞíDûáş ÿÿ şşÿãÊ+éóîĞßãîõãññêô@â4.Ô+øóæşûüôò K	í)ìíº!Ô×?şÇôÕŞö
+çñèéûúçğ ëâéæ$Hîô5íÑù.êÉ¬šöôÙ¼ÿE=TêÒZÏÜ—,ÓÁó&c	ÿéäİİìâóåèøéğé**
+€ÿÿÿÿÿÿÿÿBrelu_zero_point*"} =B
+relu_scale*#* Bblocks.0.0.weight_zero_point*!"İu?Bblocks.0.0.weight_scale*¦Bblocks.0.0.weight_quantizedJüÿÿÿÿÿ     ÿ          ÿ      ÿÿ ÿ  ÿÿ   ÿÿ ÿÿ    ÿ       ÿÿÿÿ       ÿ     ÿÿ ÿ ÿ3MÇ@? í       ÿÿ   ÿ ÿÿ        ÿÿÿÿ ÿ ÿ  ÿÿÿÿÿÿ ÿ   ÿÿ ÿ ÿşÿÿ    ÿ       ÿÿ ÿÿ ÿ                        ÿ                 *!*
+€ÿÿÿÿÿÿÿÿBrelu_1_zero_point*"Ü£G=Brelu_1_scale*#* Bblocks.0.3.weight_zero_point*!"ß<Bblocks.0.3.weight_scale*ºBblocks.0.3.weight_quantizedJÚçÑï×.Ğ*ë4é÷ÿ#è	ßãÙÍ*üîøáğú úöå	éôüíöĞĞòàğêôËçÚş%Øı 
+íöèîñùüù÷ÿíÿ
+ŞúíÓøïíÚûŞé÷ûùÿúÒßùıøú0ï÷ûæ è&	3îäûåÿûë÷ıèòİëÿè÷íÕç3ßì-ñÈBíø÷-çüÄíûêñøùşóôğüı0üîóåãEòñÜíòØãÔÒî	°ùŞ)ÿñşáÿÓ=Øòç"×íâÆ*¯WÄç@=ïÏÿöÚòğC5çDûñË
+ôóÛËìùøôøïõúöïşğñ÷êóşù û
+òô%ú"'!òğøûş åŞë)@è
+ôõèÉüTGäôşùÚá<Ğıû	1.õè&	úóä
+Ù;áêâ;İ
+1-ÖÕß,ìéñÿô5*Æ4
+
+2üŞ1ÍíŞ$Ü4òJÌÑà²îäÌãÏöğúôãZñßç#½òøØüûû5Ù÷ñîÿîá!	ÿüûöçöí"#şë 0 éêŞë,õş$úöéúóù:+Sö%Hû1ùõéÒô3ô@ôPùŞ ÷ğ)üñRüöçÛñçİÌK(«WÛşî]GBı0öÁCç¼áÿí
+ã ÷éüê'öüï"ÊùúğïíóıüÎú]İä½ì!ß×!ÔŞôã÷í(üşòï÷óÛôäÜüàéğôúîfğü1-
+åşò/àZ"ğòÔÃîÒ*!*
+€ÿÿÿÿÿÿÿÿBrelu_2_zero_point*"×R{=Brelu_2_scale*#* Bblocks.1.0.weight_zero_point*!"ÇØ½<Bblocks.1.0.weight_scale*¦Bblocks.1.0.weight_quantizedJü
+
+ûïúó÷ÏòÅùÖëø
+ÒßéÖ!)ü
+úòñèù	æüÍØçùş	öÖú×ı
+»Õè'ÿ	ıõ
+íïêÀŞûæÿîæéæİõõŞèêùôğùöûü$	ñúöüïôş*.öşõèÿúûîâÉÜ,Ê2#ûàïøÚÔ¯5ê$'Òëù÷ùèìôëşïÛëğæıû
+:#b	ü	ıü 	óè÷ñôè*!*
+€ÿÿÿÿÿÿÿÿBrelu_3_zero_point*"JĞq=Brelu_3_scale*#* Bblocks.1.3.weight_zero_point*!"a]<Bblocks.1.3.weight_scale*Ê8Bblocks.1.3.weight_quantizedJ Û&
+üÍ$#Òı÷¯óşâòúüüæúã÷íúíôãıûşİóĞ÷ İğü  üîå!ûú×&	óæõğş>-%Î'ÕÖÍmğûæ5“îû†ßäÕ¿È íûëâà,ÕàÑëøÌñÆ1)ùïêîğùÿşüÓòú!Ö×õûïá ğòû%ñÛùøàôìòÙô Ü+àÔÚ
+Ûç0[=î3öõşüàEåñÂ
+ÿ!üÿëñëèâóMñŞèÊRß Èëöëæôü%è	íõÑ)÷ûîïÿÙ
+çìCû2 ïí4ó.ÿÒîÚ8Ôöûø>óáç× à
+ñİÓÎå D,ñúLà(ğìæİü×ÚÖËüİşÿôûğ' Úüê,à
+íùöïú÷
+¹ï ú
+ìû$ıùØæ:åúÈÙêÿğÿëòBó	Òúôıë÷îùÕıı şëôİ÷ í2ö ,ü÷íâÿÓñMãÎùíüûú÷÷îÿıÿ-ó#óàèúşşï×,şÿû÷ıë÷ìöùôæõùÿı	ûüCúïûığòé#	 *êò5Ûìøû'ú%äÿ÷ì5ó!æşÙõåòäÙ Şı³ÿîó	èûâóş4ôëóİèBó'
+	çúçÚ!óíïæ9òâÖÜ>ä×û ğæùåàñØôùïÛ÷üé¾ùç$ĞıÒ şü#óåçó	ã ôöô
+óëë+ïâæëíÛàÍßø äéÀÆĞŞşëü0ıãóıëÓ½İ"ë1ùÿ@î/ÜØÛå×*9
+:(ñŞ%2#C<÷ÈÿİìëĞôáúúìòáìåëóøöèğãèóÓ2úúéõÿò!»ñéáèŞõîáÌ,3-ö ïËõÖ1åü#÷üÎæı!
+øğ	õí	â÷õ
+êİ
+ò& éğåÙÛâííúı ëïó$(0ïø%ø)5Ì#/äå-à"ÔôÍñô9üëúÿ?ÄïÓMZåõ"çõúï
+äøêïü9ÿìîğû+2 9íóÿïëóÿñûñö	ë÷ñëöùøíıû	øûÿüòûû	ıİêÒù	ÿïñıóæñõäÉçÛáı÷ÿè8üìïø!Ò#	×şŞBôæîü÷ÿİàò@ûÿç	-øì´û-â4+ ÷ñÛ@éıößêf"îü	ÿÿáûşúÿ øäñøş Õöûûøõ	öîùíîõÿì÷AğÛú:ğ	,ïë õêâûéáû´Dşê)éöçñìôò	ã
+ ôòá4ùÃíÿi,ø	-ßîÔìåúãòöş	ö!Şæî#R
+,	çéôÜıûùóòşïÜæşø áûÎè ò	-÷ôåíûşíâşıùúöÿõş ûúú
+÷
+íõòëû
+ı	Û	õ/İÉö!ëIÍNÔ¨â ÌK³ø_°" õêôöãÙûùßöİşáÿõ>*÷ÔşõÿíòàñíùÑõãßÌ÷ı üùúş ñ  û öç
+ù*!*
+€ÿÿÿÿÿÿÿÿBrelu_4_zero_point*"ó9U=Brelu_4_scale*#* Bblocks.2.0.weight_zero_point*!"ÊÏÄ<Bblocks.2.0.weight_scale*¢8Bblocks.2.0.weight_quantizedJøı÷ó ıúíóêFÍ&ãøäö#çCá şÿëİó#ãşİº
+
+çã+ääŞñşòğşşÿÑå%â-8ıìëÙ	+ÿëùêBÙé÷Íğôúø÷÷áİğõ*îñóüÃæöóòØüèñ-
+èíßøÿ ÿ	 	û"ğıõçåúíúşúıŞñ	÷÷ûÜåéïê  6ŞéŞíëÚûô÷ÆÖ1 ÏÈ²,!ìõJŞğŞêüã	B ş÷ûóù7§Š}ÉÚÒùòôêÆó:ÿîõÈí¤óÜìùêæ..şÿàâú	İşıê÷òôú÷ıúıÜÛĞæôîËÿåì5KÖÅêş%&ÑïæùŞô(öä> şåñîü æıêæîïñİ	ÜÖôõåéõïÿøøùÙí-öîòò
+öİçóû2åÖßãøêù	õõûô Ùò(ïÇ
+ïôúóçÛË'%ÂûùñôÄîĞAıÿéÜ*!*
+€ÿÿÿÿÿÿÿÿBrelu_5_zero_point*"b‹=Brelu_5_scale*#* Bblocks.2.3.weight_zero_point*!"nbÙ;Bblocks.2.3.weight_scale*ê88Bblocks.2.3.weight_quantizedJÀ
+÷õÛÆæĞíÕèèÊä×é!ô
+çæçÉ.ídªÿ¾ûÀöõ÷ì`ÑúßÛú¼ç
+ô¾ğßîñõ6ÊÛôäÜæÌõóÿí×ó¾Í		$åêüû,ò#é6Øó$ÙñúÕüü ûùøÊö÷ßìíöïôßòìÍóĞ üõĞõõøÛöó$Ü
+ûŞúDÖÛßÂ*èèóëê&.÷ààòõ÷ñêñBÿæ îëêşÿ
+æ$òëè
+ÿøî
+ûéúáüıóàåö!ÿöïÜóµÄõ0Öâï@½ÙÃííÌı.ıÑœËçí-#õ,îê +í½Ñîëõ	<ìÎùÔì~çÿ	ÿñèé
+ßæûîøøãñøì ÷ë¼òéüè'ı Éó.ë²ù@Üÿ	ğåı!òô üÿÜáêîÜõ	$ìù1ûìêù÷ç,'Ñëäüôü7 úèÒãà
+
+ÊùÓäUöîø ïî8ëâÚíèçãíı$î	ëíøãöúêğ	ùşÛÿÿì ü÷êüı æşôğôùûì òõñòèîÕÙíõ%%
+àéäÔ%Ô(ü2(êÛIèù÷Üìñ° óØö HÛáÕÜêé$øëÿçİ7(üâışûÙ"!ãëúæTëñıüûã*HûÏÌî/ÍôùÙó7.
+'çşËİÖÆ ùìF)üñë	÷±Ï&ó&+îÚ	 
+÷úÓÉ#ì#õı$íóñV	2¿õò-øÁ.æğé
+Ëï	ÆİÖıŞæÖIÚ$êÅüşóşó:ñÒåóùëùã
+ã&ãæ3ô í	å"êıîóß ÜáĞıÎÜóïî<ïüïÎî&ô5 óÿîæ Ò	éDñşî'ã ÿıÿÚ äŞşæ!şÎÛ$ıÔüàÿóğ÷òïüæïıò ğóéôö'	ä1	íàèñòë/îğ%ú½Áùöí&#å$'âîè³ºşïçëïØ ùóÚÌ2ğë¹õDëÆáâş
+òğÒÿ%üâ í±0ÙCïì$ÂL
+	
+ 
+àüğ üÿìûÿãÂìğìûúæÿûşıïÑóäçå× 0îÜ÷İ ãìöñùıéîÿÿü	ú÷Ùèşß äéîòèîîõ'óâ@ïØ	-
+ğõb"ıŞïóçööìîŞõä	3û$ ûûêû÷î	îïìïàùÿá5ÿîúá÷üáòò ôàÅáï ÏåÂÌ=îûÑÿíêşôğ			 'şßõôõâÑğèé!üçòäÿñöşîşş
+şèĞû+ãş*óîğòì"ğüşğûûøêáÚæûîğ úïüÛ ôï	öèêñõ íì&ü Ğ/5ôÖëàC÷ø
+üMñøõó,õ*ııúùD.ßÿ%ÿì/Ê¹ñùÜ×LÙğ	ıîÅØĞ	é+	!ãşÉèäáæé¸-Ğ:á3 !$ñë÷*áì#ñØ"ñÜ)ëé2ø)úïØÙşÊíâıÿ*ñ÷öè"ì9Ê5Õúôå×ä%¿Ë!ıùÏëêö.¹	÷ëôíñûõıò ïñø ûìæú	ÿÿùä)ùğøæëıÌRğ5çÏİ,ı2Ûc÷Jô+Ë<èêÚ#:Ë	ºÈ÷ä	!2äœ2ÿÙÁëùëÜüÖ éûèûú-öíşêĞÃ4	ë"ÖşüÚÚìæîßëİãùÊ"øÿßöé÷;ù;ë 6çãÿ$7ì îDëø)İ$ÚÜş0üêğûö
+îùèïº1ßØ%ßèôíïöúçß-äÏâõD+ä8áúÂËùÑôé$5í 4çòßı? (Ä×èôéë÷!šÿå&8Îãüİ Wúç"
+pîÕó=¬ÀıÜ÷Ø×áèÚïóÂë&¢í> Kàâıµ	Ìø÷òÕÙH#$ãñ$ñ
+#èöæÄ
+İùï	îÏÿıúòøÛ$öêêõÕñãİê&äCÃ#*T	LE2
+½®ÜË·ÃñŸ9ğ µò ù
+ùêìö 	úû=ğêòèùö÷ôşìı òíßôéù÷òøâÖù 0ıøêı;Èşá'îğòõì-ó0÷/Şê8×60şûşùú÷üûÿ
+ùûøúşı üÿüşøôòÿù ıúÿ úÖãæÆ'ü èåõ(ß å0	.Øû& Ùùå  ò 4¾ù	æÉ§23ø[æ,èİøñá /ışûêõèıËÅşİöòûğÖøíöıÜèı-ğ%Ó$µØêèíú
+äôøü óûøñêèìõóïùÙíĞõ÷şÙéæìòûïãêõëÏØáõ#ëúüæÊéğßÕúÈÆøÆç÷ŞòÛ	óñıÒ/+;ì#%üûôúĞ7Ä&ğşúøõşåûêÒÛï åíæëè÷ùû"è êôûóíèûôûÎùø	âÚîÓ$Úî	å çúï/ äæğ;ééÿâêõúóøî
+ØğÛñè0ÿõ?<õ&
+á+
+ûïË'ÛëíTıèõŞ4÷Øı/ğ-­ûÒí*İéìÜğ&ã
+ÿäÓş$ëë	ù	ÿ7Ôı?ÜéøÑØı÷ïÔñïøæÒÛü#0õéÙÚ&èßÏàöëâïŞî îøı
+;î#û"& ÃúÛ ïöü'÷Ûë
+êèëô
+İışå ù÷òôöï
+íôéÿ èóë¨úáèÛÎ'°üü-_õêáîŞ¹ìãñTâ +ôù)
+Ô¹éè
+%#êç4!¾ò& $óí×ÿÕÙğÁ!/û
+¾9øğ@ ïÓ3óóÎåôñá õğ/5æóêûï
+
+%ğ4$$û
+.Ôñøä%÷çúööç÷ä
+æõ÷
+íë
+ßç ñéòÙ(	âÖ Úú	ÕäÌŞáúş4û.êúÿûäÁû!-×óõê×ûùŞæü!ÓÄ
+û#&ØÔ#$ã# 	åÊ	ë
+2òÉıòòÛÓ1Á/p#âøÙŞîüøBíàºÊÙÕÓáù+ÿ(ııÑÆ ŞÖïñ Øõ2öô*!*
+€ÿÿÿÿÿÿÿÿBrelu_6_zero_point*"f9L=Brelu_6_scale*#* Bblocks.3.0.weight_zero_point*!"F–<Bblocks.3.0.weight_scale*¢8Bblocks.3.0.weight_quantizedJøöãàŞõå)ï2õõßñÍÛùõ
+ÿ1ô#Çüûğïöû0	ûëHí ü"ôúìö&Ó2ÿúäÓşóı#4-úÛëÜÀãßş÷æäöö!ñ9ìøûëùÜÅñö(L"	ò!çéíÔØèÛ ğÒÑŞË"àìÏ%ıùşøô½	İ.C
+ü/%
+ó(ÜËóõâäÑãàî7öúğ=ßó0A4KñÿüâúîúùãğÚ×1%æı%õ'­Şãí(şøóíıë
+16éô, ÒøôüñùóòÌûÉ èò;õø ôıçíÜ1ü	ôô!ù ÷×"
+Ï"	G0*,èõçî÷
+òŒ5d»Ü>ıö äöòäé$îøÈàìåõ Åà#üæ!é4şäİÔë0#
+âò
+ıîìÙŞôìúøİñ.íÕÜâüÊ¸ùÿı#ñùìöşîì õöìñşôìÙĞ÷ñ ø)Úã·)ıß#îùòßôõîøşû*!*
+€ÿÿÿÿÿÿÿÿBrelu_7_zero_point*"ÁDC=Brelu_7_scale*#* Bblocks.3.3.weight_zero_point*!"âõ;Bblocks.3.3.weight_scale*ê88Bblocks.3.3.weight_quantizedJÀî!6óäî	ø"ë
+ßô'úóöÿüçşê
+ëê÷ıü
+óÿ úïï(óüêçúü	 ı"åöûôŞğøù ê÷ úúûéßíøëê
+æûĞ ıéúûüÑúöôèùÒêğËìåñ	ù!áıôó÷ûÂûÛÚåôõü$éò"íè!ğÙİéùø1ğ Óõó)óËê#8'¸óóâşş÷ÿ
+ò íğ üşøøû óùù
+ú
+ıûğış ü	ññûüéöïúòûş÷ğ	úğüüÿìó÷çóóëûş ÷ íøÿóøöşïıí÷÷ òÿïÊìë#ÿáèÔÜ	ñò	åè÷Öï÷ì âşÖ8ŞÚè ÿú'ı#ùöì÷ â/ÎÛ%Ú2ôê.âİMûä )çî
+ôåò'ø úùîÉÛ'%aıÿ#Òôëüãñõù ıüÿ!åş ôüõîíİîóûóêñö÷êïêöûñêñó ìÿıãòò-åíøøğöşüèáæÛıöø	ïöö òñâşñúïëğ2îöûüøä%õáøıëøøôşÿõßçù màù,	çëî
+ÜßüıÔ/9é½Û,â5*ìñú:1ùğÚğòüúûğîøF	÷öëêÿÿùóêöÿòòÿ	ÿşòşşûğôÿıøüè#æÕÚô	ï  èøÿşííÔıëò&ï ÿ'Şâ-!ø
+ıŞ#ûİíüï$ĞèÌçÔöúû×Dëî ëúüîÒöÿ÷ââé85*ëá¿ëÚñòìùîóûó	ñÿùûã õÿôõ÷ÿöøíÿûÿíıóóû
+ö÷îõ
+ïøææüÕ	û6ï×-ÛÁû	9×êáîøãUî×Z#ò.KÌíÒ#şèüñÔİ	üàò Ó ó ıéùïûğêòü!æï"éæûÕà
+	õ	CŞ(öòÜè ş
+ìøŞØøéÿïõ&õ û"ôùø*ëÿõÚíéíåşöşíğòòñó ÷ı
+üşõìõõøøÿüñğèé÷ø 
+öÿ ùûøüêüôôøù	ôú÷óØßö
+üö	àü ßîòêù÷ÿäıî
+
+×Õùëê âçßòöÕæØé,ê2ı	Ôöô+çõ+;%3#î<şÏ"Ü÷õìúöåÌïù ;õşËi¼è÷âÚğõÓõüı2úÜóğBôòøöŞOïè§Ù¦Ïî)<àí½ù%¤ÙöÒÒ
+ÛæğäÖğûéòáõ$ÜîğæøäÔôäò
+êşışå÷úğüïöè$éå	ãôëïıõÿôôù İğ	ì2ıï	ŞñÑ(ó	åóıêüãşğíÑìçëàìúñ÷Ô
+ïö÷üäú	%Õğêû2ÜåÇõ	óĞúØáòğõ'Ïôññãÿşòèûîëîú÷ëş,åùëû"	Û9M¼ìûùäûÜÕüãõW4ï\Øá%ã&	ëüôÛ!áïùÚBìG  ÿßøù÷ÜòéüıÿŞôüôøéæöîñşëêçøçıãóëíè	ïşõÿîêíëí*íö'ıûí-3ôÿôúö÷/7ÿò2
+êßıçïÜïûõú	 ùóó÷ğúş	ü$ş ú ÿ üüüıüôÿéåâ	ñèÑìôúÓôëÕâñÁßÏ-öô&ìùÜÓìñöíİØä 
+ò-#õÿ3ş÷üûõä!æùúâù	ÿ
+èôóÙú2%øõöö÷	øôşÜüúùüş üş ôóùòú÷ÿöøú öıùùÿÿûèùşòşøüòş$õåùÚğúİôÿêïëû2ìğëí ûâù"şãçŞôú
+ÿ	òãó	ô õíùı û
+÷÷
+ú
+æîúö
+úôìïùıòêLğÔúşùëÏşè8èé3âú4âEä	ù÷İ(á ¹î U)ğ8ìöşóïÿıÿşîÿùğ÷úö ñı ı 	ñûÿ
+çüõı÷
+òöıôıùõèñôúü	øø-7öıò
+çşõøï ÿüôó	ëûÿóÿ,Ìîôöîøîûóøşø$ùü	,#ü×şëëõòï,í æíïúøşÿåÿò
+öñ	ûõşûÿ÷ùö÷-	óşç÷
+û üú	
+ú	øïö$ğôïøõù ìıõû şıã÷ûıìşü
+ÿğ÷ôøúï	ğ÷ğú ùş(.û9>ğùùùıäşóíùåòôçøøçúñúô÷÷ ôâïäíùùæûşàñëéöòÿöòôøà÷óòû÷ úñ×ö=è öïğş	ş÷ğê9Ò ôëüÜ)úø5Îóÿáòğí
+ïïıÿû÷ ÷ ûôö÷ı÷ü÷÷ıúõú  ûÿûôüùıìõıõ êå"ùúøØ5úà7øøù;#9E×2Şíéü'ıöİ#ÿäïöüñêıó÷	ùóîöéÿ÷ğöü úû!ş	ışğøïõùë"ÿùÿúõÿùùûıııûü	
+
+ıùöùùüûûüşüşøùôşòàê÷éıúóêõ	ô÷şæÿ şêşöö)èïàÿæüê>õĞûöùúâşãıôòÿò3Áóñ,òôòËìêöïæ Ú4#%æôñç*ßşüù÷æş	ì
+îùö	ôïøşğøöìêıñù
+ìûùëôöêüşÿùúşíùÿüäùôõúåŞ÷
+   ìãşöâÿãğõùûóâÿëùòÿã
+ôç ùØÓÿü ëúûîÿøê&ãşïÿ
+ õşà'ãéóÔæê"çßÜåìòáê-üìõÕúáöıú
+ÿûêÿ#óÇwõÜóÀÚÿ3	7øÿø$ÙèÂÓCç)ÖúĞ×HSß"?üÖâ×ü+² İáæ8úØ*!*
+€ÿÿÿÿÿÿÿÿBrelu_8_zero_point*"Õ}=Brelu_8_scale*#* Bblocks.4.0.weight_zero_point*!"]y=Bblocks.4.0.weight_scale*¢8Bblocks.4.0.weight_quantizedJøÿùûùõôüëûòù	ïşìñ òô	 úìí" xCpõ3	/"2ÿıê
+ûûğôøóûôõà é øííñøìşåóëò
+ìı	èùııùû şşü 01ùüúìûò ÷ 	üüş	  ı ù ÿöÿüîõúııïü÷ùóıè
+;G[Ò#–®p÷
+úøüıø÷øûıùÿùûö	ñ
+	ğ÷ıñúû	ù	õ	òæçúïğôú
+üüşû&' +õôóõ÷ışöìæÖèÕş
+ şşÿüòûø&û2ûú#óŞöüùóòÎÒ	Øõ	<H(ıôõóÿùôóöô ÿùöõ3÷-ùîğØ	ãÚşôñ+ô	ìïò÷<ğ 	ûıÿ÷ú_!=2JP%E ıüüıøıúùú êçğ÷÷ç	8ìë,ûğğùşÿú	(ü	ıóîîöıõøùøıÿ*!*
+€ÿÿÿÿÿÿÿÿBrelu_9_zero_point*"Ê¢=Brelu_9_scale*#* Bblocks.4.3.weight_zero_point*!"ûÚ¹;Bblocks.4.3.weight_scale*ê88Bblocks.4.3.weight_quantizedJÀòéïŞ<íiãòÂ	ïİ/Ë,Õ$Â0`¿/çŞàû÷ÕÙí$¤J’áãç].½Õ;%ÛñæùYğ
+Ä"ø%íA¬)ë#à!`½âÍç+û¸ÄØ	/™
+GÙæÄıF0Ëà2é5/IEúêéóV7/÷Bì:ñOëä<õ 'òF;ş7è(1şÛôAãŞÿhîÉğøì!ûFøô"ñ#âºäì$Ìş7Ğ×ÓÚøí8Æ_ËğãêX-Òä4ÿò3Bc8îíèÿ`÷@0é Aì-ïCçòAçò642î1æ&+úê	öAèÓgæÌõ3:X1ôïùSB"ÿ >ï>à=åì9â'ñ5K?ğ1ãÙû>ØãşYèË	Ş/4M9ôİõüWşH6áÿ÷7ç6íAîö5êá=;:ì<å#ŞøOäÒMêÆù#.I-õí÷ H
+64úõü4ó1ñ;îô*éõ9!,*æ äøá	øë0øàHòÉñø÷ó9ğü×öã)»*âõ(Ñ1XåûûääÒıïÜ,­
+ZïİÚô@6ÔíA(öò$ÿ\óùüÓù
+0åÍ9ãó4Ü MÂøÆéüÜÜô-¿,oÕûÿÜ÷j:ÊóKç*$A.ùóò÷IJ*÷ÿ-÷3ò4ìñ,âò9:2ê3ê%ûñı8ëê PæÆñîèç îRÕèïüãû!å(É<ã(ÙNÎùàåş®ëâæ9PâÌñõQ:ÇïAô%(<4ùîøøR6"ğÿ<í.ô@ğè<åğ76;ñ+ì	òş3èå LêÎ
+øûà V Îüùß6Û3ÔöÜ"PÍôğÒêâğÔ#Ç \ÛëÛáõ+*Àß<+şêê
+Cíş =+
+îıóIç6îó#îCùúèéæ#ö¿ÓÚ"?ÍóEıø
+Ôë!×è3	 ìêäõIÛ
+ôYôõ#ÿé1µ+ê/ê#Ißü÷Õ!ùÕÖèDÓôaÏíÒù-!ÍÑ@ÿıòç&<ÿÎ/ëå'à!´0Ò,á(3¿ üøÎäıÁÒ×4ÎyÕÛß$6&»éRã33PFõéø
+@í-/÷	í"?ö#ñ7óõFï&â%&@õú%ï	ö@üâı[æÃäûè3úaî© ì!ç%©8Şù9Ô/Y¨+à*ÙßûšÄàG˜ TºÃà	h<½ÒCàúîë"ôE
+àü âÎ?ÕïËRßü×éèèÔ!gÁğĞß^8ÎïTé)!W-óîù÷E'"ğ
+ú;û,ğ8ïş/åô#,*ş-óüãïAğâQñÑè%-D-îàôQK5ñúùş6ï*ç;í÷@ñì0I;ş6÷Eôç	<æØNéÕ'	ğï#êPñìî#èõşàã8è5ĞKÖúáçú§Ğäç.®K½Ö×F&×å<õòûıíşL
+Úú&ö&è(Å0â ×"SÏ*şÒúÚáêÑ6¢WçÇÇN<Ëë<$÷ğï$ñ?ÛõöÎÿä1Å*æèÕ<ç"ğáòñÛçàöQ¥tÚííàëD*Êé<ìĞÿÙ!Yğ1Ç$. æ:ä5ÈCÛ7Ó7d¢è/âñ	°ÓüLµ7¯ÿöÜÛXGÌÖMğÿ(&K*àëñõXî:Dí   9õ5úVòì6ì "ê.6-ê<üŞö0àáü^ìĞÿó$U6üîğA=(õ÷ <ù)ú?ùú0ç	 #61êúæùÔú +ïéOöÉòñıéö!Hïõú'æ»4Ğï/Ê#L²-ë ÑãÕèù9¬$_ÎûáÓQ*ÙôNïó$N1óòóş?ù5"óô		2ë)æ<ù3"ãî$=3ê2ôâ õBñêYåÇìê&,G5ş÷ùE47øüù8ñ$ö6ëï6
+éï,6A÷(÷âøø4åçO÷Áçò6N2ïëıóD8+òşù6í%õ>éô8èò+A1óÿ*ì è õ<ãİş_åÊû#%S#öóöK	8/÷
+ú2ò.ó1ïï7ãş371ñ	+öæûú<ßæ PçÔ"óèıRò	ï%*3ä+È.æè(À3CØ'ÿ"Ûò
+¿ÔêØ4‘
+BÏÏÚí[9ÇæJä-64:ùöôşG	0)ñö@æ)ñBçë;æ$7;ô(à%%óÜÿı6ãÚ_âÅê÷î÷9ûìì/öàó ìàFçİ;ÅüDÖİÛê®ıÓ
+°şYÄßÙğN1Üdòù'"D5üøöL6ôó
+-ù0é6öù4âûB"ò'ôøİõ4åß	@íÕÿöæ%cã¿
+@ú#è2ãB×ñ4Ñ'H»$è×ı	¶ŞàìK®gÍùÙÜOD¾çMûõ*CF1ïíâ	Qı=*óÿì'?è ô7éş:ç$ë,B4â8ñùÙGåç ]å¿şıìûHüó'ìÿ/â4Â'Û;Ô)EÆõŞ÷
+ÊÜâ)·Pâ
+ĞİRHÕÚFçó#÷JúßöôÿÚ'·$Ş-Ø1`¶÷ÎèœÊèà<­S¸ç¿ÚûO!¿ß<ÿà(üOÆ%ğì6Ë.âì4Õ"E½+ÙÚ÷*ºÓÒ)®ôQ·ğÜ×	A9ÂÛ8îöéøò EùÚÿ ú ë!Ã!è>á*3«ö5Çèş»ÏòªR»ù¹ßş\=Ôè8ï3'X,ùóæE÷81éú7ë2ñ:õî5ğú*+/ì,éşŞı+óàUöÕ÷ë90ODùöõEÿ@,üö	Añó6êü9ê!ü2.;ä(ıùæğñ2ğÚ	VâÃôüêì_ñáóã ÿç=Å İÖ.ÆZÆ0÷ÉæıõçìÙ	DœüaÚ	ğÌö^=Åæ4ûë+>`/äñ	òP@6ûş Aé0î?âè@âû61
+6å1á!÷òİüò4åÙgèÇäã
+ñşAÑü#$ê<Û?Ûí:Ô0RĞìıÊÚ ³çíé!£`ÛõÊßóQ>Ëç@ïúäêIøûÅ"çê'× Üé6ÓAÔûïÎî£÷â
+#ÆòkåÊé8=¸æ7ğ(-V0øôûş@ÿ!&ú;æ/èAïë<é'ú	>'ò1öÙüî<ôßSğÄä(3I9éøì >97îüû9÷(î8ùè*
+â é'3.ô(û İû0ââHïÄö+<W6õíööY
+63õ÷ú <ç/ø>êî8	ìõ886ï9ô$öÙû BæÜ	WæËäğF-P@êóüOôD0÷ ïAê"î7ñé3ãö01Dğ/ôBûçîDìÖûSáÎéòî&ÿ=ôùòúŞ.ì=ÑûÒRØõŞé1÷Îåğé,¯Zú Ğñ7*Ôî; Üöïå÷5Üüø/$ûñ!à/éÖ'YÉ2ñğû+ïèÚã;¥PÈÑÛ	G*Óê7+êûé"ş^ıÆ!ïÏ;à%è,?¾"ìÌçøÊÕİ"¦!bÂÊÜöd1ÀİJ*"*
+€ÿÿÿÿÿÿÿÿBrelu_10_zero_point*"…-¡=Brelu_10_scale**
+€ÿÿÿÿÿÿÿÿBview_zero_point*"ñåæ;B
+view_scale*!*
+şÿÿÿÿÿÿÿÿBoutput_zero_point*"H|>Boutput_scale** Bfc.weight_zero_point*"øaš;Bfc.weight_scale*8Bfc.weight_quantizedJp°ÈeÓrMDeÇàVÑwØÍÖÕtßÄ]yÑÓÇÆs}¼i|Tf¼oÊpÛSÁ·¸¾cv¸t¿İyqJtÎÃÒ28¤4¬˜9Q”/¦0(#F–S1ª7A.H±1¥œ™&A©N‹:)=Ÿ&³8;—…-80*“Bconv1.weight_bias_quantizedJpÔ  —%  Dòÿÿªğÿÿ	  !êÿÿÎ   ìğÿÿ  ê  ò   öÿÿ¤åÿÿßÿÿ÷  SìÿÿP  Ô
+  ]èÿÿ  táÿÿ"  eçÿÿ˜åÿÿfıÿÿq  ªáÿÿ¦ßÿÿ*-B!conv1.weight_bias_quantized_scaleJ0£i9*-* B&conv1.weight_bias_quantized_zero_point*˜B blocks.0.0.weight_bias_quantizedJp÷ÿÿÿïÿÿÿèÿÿÿ!         öÿÿÿôÿÿÿ3         úÿÿÿ      öÿÿÿçÿÿÿ            ëÿÿÿÿÿÿÿıÿÿÿ   õÿÿÿ   æÿÿÿäÿÿÿ*2B&blocks.0.0.weight_bias_quantized_scaleJéÍö<*2* B+blocks.0.0.weight_bias_quantized_zero_point*˜B blocks.0.3.weight_bias_quantizedJp  ?  ù	  5üÿÿ¡  ûüÿÿ  Šüÿÿ¤üÿÿ  õ  Vùÿÿã  GøÿÿÚÿÿÿ·öÿÿüÿÿ	  òüÿÿÃûÿÿyüÿÿÚïÿÿˆşÿÿöÿÿÎüÿÿ   @  ùÿÿ*2B&blocks.0.3.weight_bias_quantized_scaleJ½²ç9*2* B+blocks.0.3.weight_bias_quantized_zero_point*˜B blocks.1.0.weight_bias_quantizedJpµşÿÿ4ÿÿÿ­ıÿÿÀÿÿÿÜ    ÿÿÿ4  ¡ÿÿÿš  úşÿÿ9ÿÿÿ¡   "  \  çşÿÿéÿÿÿ şÿÿV  /ÿÿÿ¡  ñşÿÿ“  ]   iÿÿÿ—şÿÿíşÿÿDşÿÿ–  *2B&blocks.1.0.weight_bias_quantized_scaleJú`º:*2* B+blocks.1.0.weight_bias_quantized_zero_point*‰8B blocks.1.3.weight_bias_quantizedJàuÿÿÿÏ	  Á     à  C  b  "   ®  Ÿ  øöÿÿÄüÿÿÑúÿÿ   0  j  M  nıÿÿ½ÿÿÿ    Qıÿÿùÿÿì  /şÿÿ`  r
+  üşÿÿ«  -ÿÿÿšøÿÿ©  É  0şÿÿP  v  w÷ÿÿöÿÿaûÿÿU     Å  ÷øÿÿ†üÿÿ|øÿÿı  åÿÿÿbüÿÿÊúÿÿ¥øÿÿO  ËÿÿÿÖ  ¼   j  í  P  *2B&blocks.1.3.weight_bias_quantized_scaleJ½y:*2* B+blocks.1.3.weight_bias_quantized_zero_point*‰8B blocks.2.0.weight_bias_quantizedJàß  Xüÿÿ­ÿÿÿ1    Ìüÿÿ  éıÿÿ³ÿÿÿ’ıÿÿcÿÿÿ(şÿÿ»ÿÿÿŠ   ˆ  ´ÿÿÿ§  şşÿÿÍ   :şÿÿ‡şÿÿ6  êÿÿÿ˜  øÿÿÿ²    3ıÿÿëÿÿÿ¯ÿÿÿ„ÿÿÿ  dÿÿÿZ  š    w  
+  9  µ     ¸ÿÿÿ°ÿÿÿ°   £  ›   O  ¡şÿÿc   ¹  Hÿÿÿ  l   3  eÿÿÿ3  *2B&blocks.2.0.weight_bias_quantized_scaleJpí£:*2* B+blocks.2.0.weight_bias_quantized_zero_point*‰8B blocks.2.3.weight_bias_quantizedJà`
+  m	  ß  ûÿÿ—	  î
+  ^  ¢   q  ‹  %  0şÿÿÏ   ¾ûÿÿá  ıÿÿ
+  z     6  Íşÿÿô÷ÿÿî  ÎıÿÿÅÿÿÿÉùÿÿÛ  Ş  húÿÿ#ÿÿÿ  ôÿÿ{  ‘ûÿÿÌ  {ûÿÿb  4ıÿÿ®öÿÿÄ  Àşÿÿa  
+    ù  8   Eüÿÿ«şÿÿ;  š  Éÿÿÿ‘øÿÿŠıÿÿÅÿÿÿO   h  *2B&blocks.2.3.weight_bias_quantized_scaleJi.ì9*2* B+blocks.2.3.weight_bias_quantized_zero_point*‰8B blocks.3.0.weight_bias_quantizedJà­   §üÿÿE  ~ıÿÿ»şÿÿãşÿÿÿıÿÿH   ©  8  ¯şÿÿŸşÿÿ;ÿÿÿ-ÿÿÿÖ  ƒ    v  ^ıÿÿışÿÿşÿÿüÿÿ  J   pşÿÿ2  í   üÿÿÛşÿÿÈ  Bşÿÿe  Ñ     wıÿÿ8ıÿÿeıÿÿmüÿÿv    7  Û  S  ÿÿÿeÿÿÿ#üÿÿG  Å  úşÿÿ    o  »  “şÿÿ   Âıÿÿ*2B&blocks.3.0.weight_bias_quantized_scaleJ!Ão:*2* B+blocks.3.0.weight_bias_quantized_zero_point*‰8B blocks.3.3.weight_bias_quantizedJàløÿÿşÿÿì  ŞúÿÿûûÿÿÙÿÿÿ.ÿÿÿØñÿÿDÿÿÿ  £üÿÿ½óÿÿ#ûÿÿ¹ıÿÿË  È  2şÿÿbşÿÿÍ   Õ   š	  }ùÿÿÀ
+  +  ³  ç  *ùÿÿDùÿÿõ  ·õÿÿ¤÷ÿÿ!  FıÿÿMûÿÿí   úÿÿ]ùÿÿWúÿÿgùÿÿÌûÿÿüÿÿRıÿÿoöÿÿã  “  ½øÿÿgôÿÿJüÿÿùÿÿÔÿÿÿ–  pşÿÿwûÿÿÚ     Ç  *2B&blocks.3.3.weight_bias_quantized_scaleJÕöº9*2* B+blocks.3.3.weight_bias_quantized_zero_point*‰8B blocks.4.0.weight_bias_quantizedJày   G   ,ÿÿÿ„ÿÿÿíşÿÿßşÿÿ½ÿÿÿC  	   1        ¯şÿÿ  Ùşÿÿìşÿÿ=   4   o   ÿÿÿ.şÿÿ6     ƒıÿÿ™   ëşÿÿ¿   6   Óıÿÿ¿   {   ,şÿÿO   şşÿÿÂşÿÿ³şÿÿŸ   ^ÿÿÿ$  ›   !ÿÿÿwÿÿÿÎÿÿÿéşÿÿ‡ÿÿÿáşÿÿ˜   êÿÿÿpÿÿÿsşÿÿO   ¡şÿÿÍşÿÿWşÿÿhşÿÿ<   *2B&blocks.4.0.weight_bias_quantized_scaleJD1;*2* B+blocks.4.0.weight_bias_quantized_zero_point*‰8B blocks.4.3.weight_bias_quantizedJà…  ¡   ‡óÿÿñşÿÿtôÿÿ"ôÿÿÎõÿÿ„öÿÿøıÿÿ>ıÿÿÄõÿÿšÿÿÿXöÿÿişÿÿsıÿÿşÿÿ   
+öÿÿ¶  uıÿÿ\öÿÿùôÿÿ’ÿÿÿşıÿÿÄÿÿÿÊ   ôÿÿ÷ÿÿö   ˆöÿÿ÷ÿÿİöÿÿsõÿÿÎşÿÿöÿÿ×ÿÿÿ7öÿÿ7şÿÿ9öÿÿşÿÿ   Ïÿÿÿ  GöÿÿÈöÿÿ4ÿÿÿöÿÿßÿÿÿ„   »öÿÿ³öÿÿõÿÿöÿÿµıÿÿÖşÿÿÀşÿÿ*2B&blocks.4.3.weight_bias_quantized_scaleJaë9*2* B+blocks.4.3.weight_bias_quantized_zero_point*!Bfc.bias_quantizedJ›ëÿÿÒ  *#Bfc.bias_quantized_scaleJ°>8*#* Bfc.bias_quantized_zero_pointZÅ
+input
+
+
+
+.
+3"=
+/pkg.torch.export.graph_signature.InputSpec.kind
+USER_INPUT"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"&
+!pkg.torch.onnx.original_node_namexb†
+output
+
+
+"?
+0pkg.torch.export.graph_signature.OutputSpec.kindUSER_OUTPUT"+
+!pkg.torch.onnx.original_node_namelinearj&
+conv1.weight
+
+
+
+
+j+
+blocks.0.0.weight
+
+
+
+
+j+
+blocks.0.3.weight
+
+
+
+
+j+
+blocks.1.0.weight
+
+
+
+
+j+
+blocks.1.3.weight
+
+8
+
+
+j+
+blocks.2.0.weight
+
+8
+
+
+j+
+blocks.2.3.weight
+
+8
+8
+
+j+
+blocks.3.0.weight
+
+8
+
+
+j+
+blocks.3.3.weight
+
+8
+8
+
+j+
+blocks.4.0.weight
+
+8
+
+
+j+
+blocks.4.3.weight
+
+8
+8
+
+jÊ
+	fc.weight
+
+
+8"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"0
+!pkg.torch.onnx.original_node_namep_fc_weightjÂ
+fc.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone".
+!pkg.torch.onnx.original_node_name	p_fc_biasjU
+val_104
+
+
+">
+$pkg.onnxscript.optimizer.folded_from['val_102', 'val_103']jU
+val_108
+
+
+">
+$pkg.onnxscript.optimizer.folded_from['val_106', 'val_107']j
+conv1.weight_bias
+
+
+j$
+blocks.0.0.weight_bias
+
+
+j$
+blocks.0.3.weight_bias
+
+
+j$
+blocks.1.0.weight_bias
+
+
+j$
+blocks.1.3.weight_bias
+
+
+8j$
+blocks.2.0.weight_bias
+
+
+8j$
+blocks.2.3.weight_bias
+
+
+8j$
+blocks.3.0.weight_bias
+
+
+8j$
+blocks.3.3.weight_bias
+
+
+8j$
+blocks.4.0.weight_bias
+
+
+8j$
+blocks.4.3.weight_bias
+
+
+8j!
+getitem
+
+
+
+
+3j
+relu
+
+
+
+
+3j#
+	getitem_3
+
+
+
+
+3j 
+relu_1
+
+
+
+
+3j#
+	getitem_6
+
+
+
+
+3j 
+relu_2
+
+
+
+
+3j#
+	getitem_9
+
+
+
+
+j 
+relu_3
+
+
+
+
+j$
+
+getitem_12
+
+
+8
+
+j 
+relu_4
+
+
+8
+
+j$
+
+getitem_15
+
+
+8
+
+j 
+relu_5
+
+
+8
+
+j$
+
+getitem_18
+
+
+8
+
+j 
+relu_6
+
+
+8
+
+j$
+
+getitem_21
+
+
+8
+
+j 
+relu_7
+
+
+8
+
+j$
+
+getitem_24
+
+
+8
+
+j 
+relu_8
+
+
+8
+
+j$
+
+getitem_27
+
+
+8
+
+j 
+relu_9
+
+
+8
+
+j$
+
+getitem_30
+
+
+8
+
+j!
+relu_10
+
+
+8
+
+j
+mean
+
+
+8
+
+j
+view
+
+
+8‚»'
+0pkg.torch.export.ExportedProgram.graph_signature†'
+# inputs
+p_conv1_weight: PARAMETER target='conv1.weight'
+p_bn1_weight: PARAMETER target='bn1.weight'
+p_bn1_bias: PARAMETER target='bn1.bias'
+p_blocks_0_0_weight: PARAMETER target='blocks.0.0.weight'
+p_blocks_0_1_weight: PARAMETER target='blocks.0.1.weight'
+p_blocks_0_1_bias: PARAMETER target='blocks.0.1.bias'
+p_blocks_0_3_weight: PARAMETER target='blocks.0.3.weight'
+p_blocks_0_4_weight: PARAMETER target='blocks.0.4.weight'
+p_blocks_0_4_bias: PARAMETER target='blocks.0.4.bias'
+p_blocks_1_0_weight: PARAMETER target='blocks.1.0.weight'
+p_blocks_1_1_weight: PARAMETER target='blocks.1.1.weight'
+p_blocks_1_1_bias: PARAMETER target='blocks.1.1.bias'
+p_blocks_1_3_weight: PARAMETER target='blocks.1.3.weight'
+p_blocks_1_4_weight: PARAMETER target='blocks.1.4.weight'
+p_blocks_1_4_bias: PARAMETER target='blocks.1.4.bias'
+p_blocks_2_0_weight: PARAMETER target='blocks.2.0.weight'
+p_blocks_2_1_weight: PARAMETER target='blocks.2.1.weight'
+p_blocks_2_1_bias: PARAMETER target='blocks.2.1.bias'
+p_blocks_2_3_weight: PARAMETER target='blocks.2.3.weight'
+p_blocks_2_4_weight: PARAMETER target='blocks.2.4.weight'
+p_blocks_2_4_bias: PARAMETER target='blocks.2.4.bias'
+p_blocks_3_0_weight: PARAMETER target='blocks.3.0.weight'
+p_blocks_3_1_weight: PARAMETER target='blocks.3.1.weight'
+p_blocks_3_1_bias: PARAMETER target='blocks.3.1.bias'
+p_blocks_3_3_weight: PARAMETER target='blocks.3.3.weight'
+p_blocks_3_4_weight: PARAMETER target='blocks.3.4.weight'
+p_blocks_3_4_bias: PARAMETER target='blocks.3.4.bias'
+p_blocks_4_0_weight: PARAMETER target='blocks.4.0.weight'
+p_blocks_4_1_weight: PARAMETER target='blocks.4.1.weight'
+p_blocks_4_1_bias: PARAMETER target='blocks.4.1.bias'
+p_blocks_4_3_weight: PARAMETER target='blocks.4.3.weight'
+p_blocks_4_4_weight: PARAMETER target='blocks.4.4.weight'
+p_blocks_4_4_bias: PARAMETER target='blocks.4.4.bias'
+p_fc_weight: PARAMETER target='fc.weight'
+p_fc_bias: PARAMETER target='fc.bias'
+b_bn1_running_mean: BUFFER target='bn1.running_mean' persistent=True
+b_bn1_running_var: BUFFER target='bn1.running_var' persistent=True
+b_bn1_num_batches_tracked: BUFFER target='bn1.num_batches_tracked' persistent=True
+b_blocks_0_1_running_mean: BUFFER target='blocks.0.1.running_mean' persistent=True
+b_blocks_0_1_running_var: BUFFER target='blocks.0.1.running_var' persistent=True
+b_blocks_0_1_num_batches_tracked: BUFFER target='blocks.0.1.num_batches_tracked' persistent=True
+b_blocks_0_4_running_mean: BUFFER target='blocks.0.4.running_mean' persistent=True
+b_blocks_0_4_running_var: BUFFER target='blocks.0.4.running_var' persistent=True
+b_blocks_0_4_num_batches_tracked: BUFFER target='blocks.0.4.num_batches_tracked' persistent=True
+b_blocks_1_1_running_mean: BUFFER target='blocks.1.1.running_mean' persistent=True
+b_blocks_1_1_running_var: BUFFER target='blocks.1.1.running_var' persistent=True
+b_blocks_1_1_num_batches_tracked: BUFFER target='blocks.1.1.num_batches_tracked' persistent=True
+b_blocks_1_4_running_mean: BUFFER target='blocks.1.4.running_mean' persistent=True
+b_blocks_1_4_running_var: BUFFER target='blocks.1.4.running_var' persistent=True
+b_blocks_1_4_num_batches_tracked: BUFFER target='blocks.1.4.num_batches_tracked' persistent=True
+b_blocks_2_1_running_mean: BUFFER target='blocks.2.1.running_mean' persistent=True
+b_blocks_2_1_running_var: BUFFER target='blocks.2.1.running_var' persistent=True
+b_blocks_2_1_num_batches_tracked: BUFFER target='blocks.2.1.num_batches_tracked' persistent=True
+b_blocks_2_4_running_mean: BUFFER target='blocks.2.4.running_mean' persistent=True
+b_blocks_2_4_running_var: BUFFER target='blocks.2.4.running_var' persistent=True
+b_blocks_2_4_num_batches_tracked: BUFFER target='blocks.2.4.num_batches_tracked' persistent=True
+b_blocks_3_1_running_mean: BUFFER target='blocks.3.1.running_mean' persistent=True
+b_blocks_3_1_running_var: BUFFER target='blocks.3.1.running_var' persistent=True
+b_blocks_3_1_num_batches_tracked: BUFFER target='blocks.3.1.num_batches_tracked' persistent=True
+b_blocks_3_4_running_mean: BUFFER target='blocks.3.4.running_mean' persistent=True
+b_blocks_3_4_running_var: BUFFER target='blocks.3.4.running_var' persistent=True
+b_blocks_3_4_num_batches_tracked: BUFFER target='blocks.3.4.num_batches_tracked' persistent=True
+b_blocks_4_1_running_mean: BUFFER target='blocks.4.1.running_mean' persistent=True
+b_blocks_4_1_running_var: BUFFER target='blocks.4.1.running_var' persistent=True
+b_blocks_4_1_num_batches_tracked: BUFFER target='blocks.4.1.num_batches_tracked' persistent=True
+b_blocks_4_4_running_mean: BUFFER target='blocks.4.4.running_mean' persistent=True
+b_blocks_4_4_running_var: BUFFER target='blocks.4.4.running_var' persistent=True
+b_blocks_4_4_num_batches_tracked: BUFFER target='blocks.4.4.num_batches_tracked' persistent=True
+b_frontend_melspec_spectrogram_window: BUFFER target='frontend.melspec.spectrogram.window' persistent=True
+b_frontend_melspec_mel_scale_fb: BUFFER target='frontend.melspec.mel_scale.fb' persistent=True
+x: USER_INPUT
+
+# outputs
+linear: USER_OUTPUT
+‚8
+2pkg.torch.export.ExportedProgram.range_constraints{}B
+ r
+
+onnx.inferonnxruntime.quant
